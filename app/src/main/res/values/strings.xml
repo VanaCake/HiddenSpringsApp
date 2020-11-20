@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Hidden Springs App</string>
+    <string name="eventsList">Events List</string>
+    <string name="friyayPartic">FriYAY Participants</string>
+    <string name="friyayGames">FriYAY Games</string>
+    <string name="counters">Counters</string>
+    <string name="serverRatio">Server Ratio</string>
+    <string name="add">ADD</string>
+    <string name="eventNameHint">Type event name</string>
+    <string name="eventDateHint">Type date</string>
+    <string name="participantsHint">Type name</string>
+    <string name="friyayGamesButton">RNG!</string>
+    <string name="numberOfPlayersHint"># of players</string>
+    <string name="friyayGamesRngOutput"></string>
+    <string name="friyayGamesRngTitle">RNG Game Generator</string>
+    <string name="counter1Name">Forgetting They Are Muted</string>
+    <string name="c1Value">0</string>
+    <string name="c2Value">0</string>
+    <string name="c3Value">0</string>
+    <string name="counter2Name">Forgetting to Ready-Up</string>
+    <string name="counter3Name">Missing DS</string>
+    <string name="serverRatiostring">Server Ratio:</string>
+    <string name="metIRL">Met IRL:</string>
+    <string name="metOnline">Met Online:</string>
+    <string name="serverRatioNum">#/#</string>
+    <string name="metIRLvalue">#</string>
+    <string name="metOnlineValue">#</string>
 </resources>

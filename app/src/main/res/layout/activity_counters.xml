@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hsbackground"
+    tools:context=".Counters">
+
+    <TableLayout
+        android:id="@+id/counterTL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/paddingValue"
+        android:paddingTop="@dimen/paddingValue"
+        android:paddingRight="@dimen/paddingValue"
+        android:paddingBottom="@dimen/paddingValue">
+
+        <TableRow
+            android:id="@+id/counterTLrow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/counter1TV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="@string/counter1Name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/counterTLrow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/c1SubtractButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/subtract_image_button" />
+
+            <TextView
+                android:id="@+id/c1NumTV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="@string/c1Value"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+
+            <ImageView
+                android:id="@+id/c1AddButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add_image_button" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/counterTLrow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/counter2TV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="@string/counter2Name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/counterTLrow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/c2SubtractButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/subtract_image_button" />
+
+            <TextView
+                android:id="@+id/c2NumTV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="@string/c2Value"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+
+            <ImageView
+                android:id="@+id/c2AddButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add_image_button" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/counterTLrow5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/counter3TV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="@string/counter3Name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/counterTLrow6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/c3SubtractButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/subtract_image_button" />
+
+            <TextView
+                android:id="@+id/c3NumTV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="@string/c3Value"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+
+            <ImageView
+                android:id="@+id/c3AddButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add_image_button" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hsbackground"
+    android:paddingLeft="@dimen/paddingValue"
+    android:paddingTop="@dimen/paddingValue"
+    android:paddingRight="@dimen/paddingValue"
+    android:paddingBottom="@dimen/paddingValue"
+    tools:context=".FriyayParticipants">
+
+    <TableLayout
+        android:id="@+id/friyayParticTL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="25dp">
+
+        <TableRow
+            android:id="@+id/friyayParticTLrow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/paddingValue">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/friyayParticRV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/semiTransparent"
+                android:backgroundTint="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/friyayParticTLrow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/friyayParticNameET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/acme"
+                android:hint="@string/participantsHint"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/textSize2" />
+
+            <Button
+                android:id="@+id/friyayParticButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/mainColor"
+                android:fontFamily="@font/acme"
+                android:text="@string/add"
+                android:textSize="@dimen/textSize2" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

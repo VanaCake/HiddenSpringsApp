@@ -9,6 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HiddenSpringsApp">
+        <activity android:name=".ServerRatio"
+            android:parentActivityName=".MainActivity"
+            android:label="Server Ratio"></activity>
+        <activity android:name=".Counters"
+            android:parentActivityName=".MainActivity"
+            android:label="Counters"></activity>
+        <activity android:name=".FriyayGames"
+            android:parentActivityName=".MainActivity"
+            android:label="FriYAY Games"></activity>
+        <activity android:name=".FriyayParticipants"
+            android:parentActivityName=".MainActivity"
+            android:label="FriYAY Participants"></activity>
+        <activity android:name=".EventsList"
+            android:parentActivityName=".MainActivity"
+            android:label="Events List"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +31,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

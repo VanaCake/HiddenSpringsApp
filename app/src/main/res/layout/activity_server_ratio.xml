@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hsbackground"
+    android:paddingLeft="@dimen/paddingValue"
+    android:paddingTop="@dimen/paddingValue"
+    android:paddingRight="@dimen/paddingValue"
+    android:paddingBottom="@dimen/paddingValue"
+    tools:context=".ServerRatio">
+
+    <TableLayout
+        android:id="@+id/serverRatioTL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/paddingValue"
+        android:paddingTop="@dimen/paddingValue"
+        android:paddingRight="@dimen/paddingValue"
+        android:paddingBottom="@dimen/paddingValue">
+
+        <TableRow
+            android:id="@+id/serverRatioTLrow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/semiTransparent"
+            android:backgroundTint="#FFFFFF">
+
+            <TextView
+                android:id="@+id/serverRatioTV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="@string/serverRatiostring"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/serverRatioTV2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:text="@string/serverRatioNum"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/serverRatioTLrow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/semiTransparent"
+            android:backgroundTint="#FFFFFF">
+
+            <TextView
+                android:id="@+id/metIrlTV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="@string/metIRL"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/metIrlTV2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:text="@string/metIRLvalue"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/serverRatioTLrow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/semiTransparent"
+            android:backgroundTint="#FFFFFF">
+
+            <TextView
+                android:id="@+id/metOnlineTV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="@string/metOnline"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/metOnlineTV2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:text="@string/metOnlineValue"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
