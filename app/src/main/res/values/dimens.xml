@@ -3,4 +3,5 @@
     <dimen name="paddingValue">25dp</dimen>
     <dimen name="textSize">30sp</dimen>
     <dimen name="textSize2">20sp</dimen>
+    <dimen name="textSize3">45dp</dimen>
 </resources>

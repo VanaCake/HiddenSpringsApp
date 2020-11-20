@@ -42,25 +42,27 @@
 
             <ImageView
                 android:id="@+id/c1SubtractButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:src="@drawable/subtract_image_button" />
 
             <TextView
                 android:id="@+id/c1NumTV"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:fontFamily="@font/acme"
                 android:gravity="center"
                 android:text="@string/c1Value"
                 android:textColor="@color/white"
-                android:textSize="@dimen/textSize" />
+                android:textSize="@dimen/textSize3" />
 
             <ImageView
                 android:id="@+id/c1AddButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:src="@drawable/add_image_button" />
         </TableRow>
 
@@ -90,25 +92,27 @@
 
             <ImageView
                 android:id="@+id/c2SubtractButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:src="@drawable/subtract_image_button" />
 
             <TextView
                 android:id="@+id/c2NumTV"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:fontFamily="@font/acme"
                 android:gravity="center"
                 android:text="@string/c2Value"
                 android:textColor="@color/white"
-                android:textSize="@dimen/textSize" />
+                android:textSize="@dimen/textSize3" />
 
             <ImageView
                 android:id="@+id/c2AddButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:src="@drawable/add_image_button" />
         </TableRow>
 
@@ -138,25 +142,27 @@
 
             <ImageView
                 android:id="@+id/c3SubtractButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:src="@drawable/subtract_image_button" />
 
             <TextView
                 android:id="@+id/c3NumTV"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:fontFamily="@font/acme"
                 android:gravity="center"
                 android:text="@string/c3Value"
                 android:textColor="@color/white"
-                android:textSize="@dimen/textSize" />
+                android:textSize="@dimen/textSize3" />
 
             <ImageView
                 android:id="@+id/c3AddButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:src="@drawable/add_image_button" />
         </TableRow>
     </TableLayout>

@@ -13,16 +13,24 @@
     <string name="numberOfPlayersHint"># of players</string>
     <string name="friyayGamesRngOutput"></string>
     <string name="friyayGamesRngTitle">RNG Game Generator</string>
-    <string name="counter1Name">Forgetting They Are Muted</string>
+    <string name="counter1Name">Forgetting They Are Muted (Pulling a Rico)</string>
     <string name="c1Value">0</string>
     <string name="c2Value">0</string>
     <string name="c3Value">0</string>
-    <string name="counter2Name">Forgetting to Ready-Up</string>
-    <string name="counter3Name">Missing DS</string>
+    <string name="counter2Name">Forgetting to Ready-Up (Pulling a Rico)</string>
+    <string name="counter3Name">Missing DS (Pulling a Clarence/Ethan)</string>
     <string name="serverRatiostring">Server Ratio:</string>
     <string name="metIRL">Met IRL:</string>
     <string name="metOnline">Met Online:</string>
     <string name="serverRatioNum">#/#</string>
     <string name="metIRLvalue">#</string>
     <string name="metOnlineValue">#</string>
+    <string name="fix">FIX</string>
+    <string name="newEventHint">Type new event</string>
+    <string name="newDateHint">Type new date</string>
+    <string name="currentEventName">Current Event:</string>
+    <string name="currentEventDate">Current Date:</string>
+    <string name="editFriyayParticHint">Type new name</string>
+    <string name="editFriyayParticInput" />
+    <string name="currentFriyayParticName">Current Name:</string>
 </resources>

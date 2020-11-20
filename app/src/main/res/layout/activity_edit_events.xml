@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hsbackground"
+    android:paddingLeft="@dimen/paddingValue"
+    android:paddingTop="@dimen/paddingValue"
+    android:paddingRight="@dimen/paddingValue"
+    android:paddingBottom="@dimen/paddingValue"
+    tools:context=".EditEvents">
+
+    <TableLayout
+        android:id="@+id/editEventsTL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="25dp">
+
+        <TableRow
+            android:id="@+id/editEventsTLrow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/paddingValue">
+
+            <TextView
+                android:id="@+id/editEventsCurrentDateTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:text="@string/currentEventDate"
+                android:textColor="@color/mainColor"
+                android:textSize="@dimen/textSize2" />
+
+            <TextView
+                android:id="@+id/editEventsCurrentNameTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/acme"
+                android:text="@string/currentEventName"
+                android:textColor="@color/mainColor"
+                android:textSize="@dimen/textSize2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/editEventsTLrow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/paddingValue">
+
+            <EditText
+                android:id="@+id/editEventsNewNameET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/acme"
+                android:hint="@string/newEventHint"
+                android:inputType="textPersonName"
+                android:textColor="@color/mainColor"
+                android:textColorHint="@color/mainColor"
+                android:textSize="@dimen/textSize2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/editEventsTLrow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editEventNewDateET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ems="10"
+                android:fontFamily="@font/acme"
+                android:hint="@string/newDateHint"
+                android:inputType="textPersonName"
+                android:textColor="@color/mainColor"
+                android:textColorHint="@color/mainColor"
+                android:textSize="@dimen/textSize2" />
+
+            <Button
+                android:id="@+id/editEventsFixButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/mainColor"
+                android:fontFamily="@font/acme"
+                android:text="@string/fix"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textSize2" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

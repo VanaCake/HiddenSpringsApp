@@ -9,21 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HiddenSpringsApp">
-        <activity android:name=".ServerRatio"
-            android:parentActivityName=".MainActivity"
-            android:label="Server Ratio"></activity>
-        <activity android:name=".Counters"
-            android:parentActivityName=".MainActivity"
-            android:label="Counters"></activity>
-        <activity android:name=".FriyayGames"
-            android:parentActivityName=".MainActivity"
-            android:label="FriYAY Games"></activity>
-        <activity android:name=".FriyayParticipants"
-            android:parentActivityName=".MainActivity"
-            android:label="FriYAY Participants"></activity>
-        <activity android:name=".EventsList"
-            android:parentActivityName=".MainActivity"
-            android:label="Events List"></activity>
+        <activity android:name=".EditFriyayPartic"
+            android:label="Edit FriYAY Participant"
+            android:parentActivityName=".FriyayParticipants"></activity>
+        <activity android:name=".EditEvents"
+            android:label="Edit Event"
+            android:parentActivityName=".EventsList"></activity>>
+        <activity
+            android:name=".ServerRatio"
+            android:label="Server Ratio"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Counters"
+            android:label="Counters"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FriyayGames"
+            android:label="FriYAY Games"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FriyayParticipants"
+            android:label="FriYAY Participants"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EventsList"
+            android:label="Events List"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
