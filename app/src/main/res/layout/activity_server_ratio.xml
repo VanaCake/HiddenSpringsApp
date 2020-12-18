@@ -30,7 +30,7 @@
 
             <TextView
                 android:id="@+id/serverRatioTV1"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
@@ -42,7 +42,7 @@
 
             <TextView
                 android:id="@+id/serverRatioTV2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
@@ -62,7 +62,7 @@
 
             <TextView
                 android:id="@+id/metIrlTV1"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
@@ -74,7 +74,7 @@
 
             <TextView
                 android:id="@+id/metIrlTV2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
@@ -94,7 +94,7 @@
 
             <TextView
                 android:id="@+id/metOnlineTV1"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
@@ -106,13 +106,68 @@
 
             <TextView
                 android:id="@+id/metOnlineTV2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:fontFamily="@font/acme"
                 android:text="@string/metOnlineValue"
                 android:textColor="@color/white"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/serverRatioTLrow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/irlNumET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/acme"
+                android:hint="@string/irlHint"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/paddingValue" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/serverRatioTLrow5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/onlineNumET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/acme"
+                android:hint="@string/onlineHint"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/paddingValue" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/serverRatioTLrow6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/serverRatioSaveB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/serverRatioButtonText"
+                android:textColor="@color/white"
+                android:textColorHint="@color/mainColor2"
                 android:textSize="@dimen/textSize" />
         </TableRow>
 

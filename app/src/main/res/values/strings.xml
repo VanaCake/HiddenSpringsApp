@@ -9,15 +9,15 @@
     <string name="eventNameHint">Type event name</string>
     <string name="eventDateHint">Type date</string>
     <string name="participantsHint">Type name</string>
-    <string name="friyayGamesButton">RNG!</string>
+    <string name="friyayGamesButton">SET!</string>
     <string name="numberOfPlayersHint"># of players</string>
     <string name="friyayGamesRngOutput"></string>
-    <string name="friyayGamesRngTitle">RNG Game Generator</string>
+    <string name="friyayGamesTitle">FriYAY Games</string>
     <string name="counter1Name">Forgetting They Are Muted (Pulling a Rico)</string>
     <string name="c1Value">0</string>
     <string name="c2Value">0</string>
     <string name="c3Value">0</string>
-    <string name="counter2Name">Forgetting to Ready-Up (Pulling a Rico)</string>
+    <string name="counter2Name">Forgetting to Ready-Up (Pulling a Rico 2)</string>
     <string name="counter3Name">Missing DS (Pulling a Clarence/Ethan)</string>
     <string name="serverRatiostring">Server Ratio:</string>
     <string name="metIRL">Met IRL:</string>
@@ -33,4 +33,9 @@
     <string name="editFriyayParticHint">Type new name</string>
     <string name="editFriyayParticInput" />
     <string name="currentFriyayParticName">Current Name:</string>
+    <string name="serverRatioButtonText">UPDATE</string>
+    <string name="irlHint">Amount of IRL friends</string>
+    <string name="onlineHint">Amount of online friends</string>
+    <string name="friyayGamesTitle2"><![CDATA[Games & Max Players]]></string>
+
 </resources>

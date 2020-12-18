@@ -10,4 +10,5 @@
     <color name="mainColor">#FF333333</color>
     <color name="gray">#B1B1B1</color>
     <color name="semiTransparent">#8AB558CA</color>
+    <color name="mainColor2">#444444</color>
 </resources>

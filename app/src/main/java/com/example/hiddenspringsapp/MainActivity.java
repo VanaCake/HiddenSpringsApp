@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
     Button events_listB, friyay_particB, friyay_gamesB, countersB, server_ratioB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

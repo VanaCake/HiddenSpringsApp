@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/friyayGamesTV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="@color/semiTransparent"
+        android:backgroundTint="@color/purple_200"
+        android:text="Game"
+        android:textColor="@color/mainColor"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/friyayGamesTV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/semiTransparent"
+        android:backgroundTint="@color/purple_200"
+        android:paddingRight="@dimen/paddingValue"
+        android:text="Players"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/mainColor"
+        android:textSize="@dimen/textSize" />
+
+</LinearLayout>
